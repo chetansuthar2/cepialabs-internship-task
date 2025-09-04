@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
 
-  /* card ko screen ke center me lane ke liye */
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,4 +51,19 @@ body {
 h2, h3 {
   margin: 8px 0;
   color: #222;
+}
+.toggle-btn {
+  padding: 10px 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 12px;
+  transition: background 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background: #0056b3;
 }
