@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+
+  /* card ko screen ke center me lane ke liye */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  padding: 25px;
+  max-width: 600px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.sculpture-img {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 12px;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: block;
+}
+
+.sculpture-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.hint {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0 20px;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin-top: 15px;
+}
+
+h2, h3 {
+  margin: 8px 0;
+  color: #222;
+}
